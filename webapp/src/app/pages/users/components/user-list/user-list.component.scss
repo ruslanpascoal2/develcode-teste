@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+}
+
+.actions{
+    mat-icon{
+        color: #bbb;
+        font-size: 20px;
+        &:hover{
+            color: darken($color: #bbb, $amount: 20%);
+        }
+    }
+}
+.empty-card{
+    height: 400px;
+}
