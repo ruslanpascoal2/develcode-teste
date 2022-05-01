@@ -14,3 +14,31 @@ table {
 .empty-card{
     height: 400px;
 }
+
+.list-responsive{
+    .item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 100px;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        padding: 1rem;
+        font-size: 14px;
+        
+        .text-muted{
+            margin-right: .5rem;
+        }
+        
+        h4{
+            color: #3f51b5;
+        }
+    }
+}
+
+button{
+    .plus-icon{
+        font-size: 18px;
+    }
+}

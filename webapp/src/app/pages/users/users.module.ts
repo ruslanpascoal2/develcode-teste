@@ -17,7 +17,7 @@ import { UserListComponent } from './components/user-list/user-list.component';
   imports: [
     CommonModule,
     UsersRoutingModule,
-    SharedModule
+    SharedModule,
   ]
 })
 export class UsersModule { }

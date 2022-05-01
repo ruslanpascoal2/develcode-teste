@@ -1,4 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.snackbar {
+  &.success {
+    background-color: #333;
+    color: rgb(104, 221, 137);
+  }
+  &.error {
+    background-color: #333;
+    color: rgb(227, 98, 73);
+  }
+}
+
+
+button{
+  .spinner-border{
+    width: 15px;
+    height: 15px;
+  }
+}
+

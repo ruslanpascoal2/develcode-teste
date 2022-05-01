@@ -1,0 +1,13 @@
+<div class="d-flex align-items-center" [ngClass]="data.type">
+    <div class="me-3" [ngSwitch]="data?.type">
+        <div *ngSwitchCase="'success'">
+            <mat-icon>check_circle</mat-icon> 
+        </div>
+        <div *ngSwitchCase="'error'">
+            <mat-icon>error</mat-icon> 
+        </div>
+        <div *ngSwitchDefault>output2</div>
+    </div>
+    
+    <span>{{ data?.message }}</span>
+</div>
